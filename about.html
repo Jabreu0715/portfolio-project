@@ -31,13 +31,39 @@
       src="https://kit.fontawesome.com/b0632a11ea.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <title>About Jennifer Abreu</title>
     <meta
       name="description"
       content="Jennifer Abreu's projects displayed to highlight her professional coding skills"
     />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage"
+          ><img
+            src="images/SheCodesLogo.png"
+            class="logo d-none d-md-block"
+            alt="Jennifer Logo"
+            title="Homepage"
+        /></a>
+        <a href="/"
+          ><img
+            src="images//SheCodesLogo-small.jpg"
+            class="logo-small d-block d-md-none"
+            alt="Jennifer Logo"
+            title="Homepage"
+        /></a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Jennifer">About</a>
+          </li>
+          <li><a href="/work.html" title="Jennifer's Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Jennifer">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -50,13 +76,69 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="" class="btn btn-branding">View my Projects</a>
+            <a href="/work.html" class="btn btn-branding" title="View Projects"
+              >View my Projects</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/Patricia.png" alt="" class="img-fluid" />
+          <img
+            src="images/Patricia.png"
+            alt="Photo of Jennifer"
+            class="img-fluid"
+            title="Jennifer"
+          />
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Lets Work Together!</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Jennifer"
+            >Contact Me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:jabreu0715@gmail.com"
+          class="email-link"
+          title="Email Jennifer"
+          >jabreu0715@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center mb-5">
+        <a href="#" target="_blank" title="Instagram Profile"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.github.com/Jabreu0715"
+          target="_blank"
+          title="GitHub Profile"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="#" target="_blank" title="Facebook profile"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by Jennifer Abreu, and it is
+        <a
+          href="https://github.com/Jabreu0715/portfolio-project"
+          target="_blank"
+          >open-sourced</a
+        >
+        on GitHub.
+      </p>
+    </footer>
   </body>
 </html>
