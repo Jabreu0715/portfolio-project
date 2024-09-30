@@ -38,7 +38,8 @@ p {
   background-color: antiquewhite;
 }
 .profile-pic {
-  max-height: 70%;
+  max-height: 75%;
+  margin-left: 100px;
 }
 nav {
   padding: 20px 0;
@@ -175,14 +176,13 @@ footer .social-links a:hover {
   color: #3f9f6f;
 }
 @media (max-width: 960px) {
-  h1 {
-    font-size: 60px;
-    line-height: 1.5;
-    font-size: 44px;
+  .content h1 {
+    font-size: 36px;
+    line-height: 1;
   }
 
-  h2 {
-    font-size: 44px;
+  .content h2 {
+    font-size: 18px;
   }
   h3 {
     font-size: 24px;
@@ -191,9 +191,18 @@ footer .social-links a:hover {
   .hero {
     padding: 80px 20px;
   }
+  .hero h1 {
+    font-size: 36px;
+  }
+  .hero h2 {
+    font-size: 18px;
+  }
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .project-description h2 {
+    font-size: 36px;
   }
   .content {
     text-align: center;
@@ -202,7 +211,10 @@ footer .social-links a:hover {
   nav a {
     font-size: 12px;
   }
-  .profile-pic {
-    margin: 60px;
+  .content p {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
   }
 }
